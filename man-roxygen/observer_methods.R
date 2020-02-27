@@ -284,7 +284,7 @@
 ##'   A named character vector.  Names are the worker ids and value is the task id, or \code{NA} if no task is being worked on.
 ##' }
 ##' \item{\code{workers_times}}{
-##'   returns a summary of times for a set of workers.  This only returns useful information if the workers are running a heartbeat process, which requires the \code{RedisHeartbeat} package.
+##'   returns a summary of times for a set of workers.  This only returns useful information if the workers are running a heartbeat process, which requires the \code{heartbeatr} package.
 ##'
 ##'   \emph{Usage:}
 ##'   \code{workers_times(worker_ids = NULL, unit_elapsed = "secs")}

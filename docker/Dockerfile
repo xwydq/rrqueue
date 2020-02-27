@@ -34,7 +34,7 @@ RUN install2.r --error  \
 
 RUN installGithub.r  \
     ropensci/RedisAPI \
-    richfitz/RedisHeartbeat \
+    mrc-ide/heartbeatr \
     richfitz/storr \
     richfitz/remake \
     gaborcsardi/progress \

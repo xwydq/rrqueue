@@ -96,7 +96,7 @@ redis-server
 
 Try `redis-cli PING` to see if it is running; it should return `PONG` and not give an error.
 
-We'll also need to install some R packages (before), which will require installing the [hiredis](https://github.com/redis/hiredis) library.  See the details on the [https://github.com/richfitz/RedisHeartbeat](RedisHeartbeat) page, but briefly:
+We'll also need to install some R packages (before), which will require installing the [hiredis](https://github.com/redis/hiredis) library.  See the details on the [https://github.com/mrc-ide/heartbeatr](heartbeatr) page, but briefly:
 
 * Download the archive from the [https://github.com/redis/hiredis/releases/latest](hiredis release  page)
 * install with `tar -zxvf hiredis-0.XX.Y.tar.gz && cd hiredis-0.XX.Y && make && sudo make install`
@@ -112,7 +112,7 @@ You can then install the required R packages:
 
 ```
 install.packages(c("RcppRedis", "R6", "digest", "docopt"))
-devtools::install_github(c("ropensci/RedisAPI", "richfitz/redux", "richfitz/RedisHeartbeat", "richfitz/ids"))
+devtools::install_github(c("ropensci/RedisAPI", "richfitz/redux", "mrc-ide/heartbeatr", "richfitz/ids"))
 devtools::install_github("traitecoevo/rrqueue")
 ```
 

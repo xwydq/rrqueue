@@ -12,3 +12,5 @@
 ^inst/web$
 ^update_web\.sh$
 ^rrqueue_.+\.tar\.gz$
+^.*\.Rproj$
+^\.Rproj\.user$

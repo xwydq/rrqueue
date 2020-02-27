@@ -194,7 +194,7 @@ workers_times:
   short: >-
     returns a summary of times for a set of workers.  This only
     returns useful information if the workers are running a heartbeat
-    process, which requires the \code{RedisHeartbeat} package.
+    process, which requires the \code{heartbeatr} package.
   params:
     worker_ids: *worker_ids
     unit_elapsed: >-
